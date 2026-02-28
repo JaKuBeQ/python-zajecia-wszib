@@ -11,6 +11,6 @@ print(len(Imię_17), Imię_17[2:7])
 # metoda .count zwraca liczbę wystąpień argumentu
 print(Imię_17.count('a'))
 
-shout = input('good morning my neighbours!')
-print('yes yes', shout, 'too!')
+shout = input('Good morning my neighbours!')
+print('Yes, yes', shout, 'too!')
 
