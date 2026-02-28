@@ -9,3 +9,5 @@ a, b = 1, Num
 while (a-b)**2 > eps:
     a = (a+b)/2
     b = Num/a
+
+print('pierwiastek z podanej liczby %f wynosi %f: ' %(Num,a))
