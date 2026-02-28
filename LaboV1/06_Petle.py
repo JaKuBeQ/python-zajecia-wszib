@@ -1,4 +1,4 @@
-'''Pętla for .. in ..
+'''Pętla for .. in .. ID: 05
 Uwaga: po elementach wszystkich danych złożonych
 w Python'ie można iterować.
 for itr in "string"/[lista]/(entka,)/
@@ -14,6 +14,12 @@ licz = 0
 while licz < len(zest):
     print('Indeks', licz, zest[licz])
     licz = licz + 1
+
+for indeks in range(len(zest)):
+    print('Indeks', indeks, zest[indeks])
+
+for element in ['Dom', 'Droga', 'Latarnia', 'Okno']:
+    print(element)
 
 #Suma wartości elementów listy
 liczby = [12,12,14,1256,350]
