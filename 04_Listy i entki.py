@@ -1,4 +1,4 @@
-'''04 [Listy] i (entki,)
+'''04 [Listy] i (entki,) ID: 05
 '''
 lista = ['jabłko', 'gruszka', 'śliwka', 'morela',
          'mango']
