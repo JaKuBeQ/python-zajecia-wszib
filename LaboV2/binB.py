@@ -1,4 +1,4 @@
-'''Wyszukiwanie binarne'''
+'''Wyszukiwanie binarne  Jakub Łysiak id : 05 '''
 
 Tb = [2,5,7,7,11,23,55,176,400]
 

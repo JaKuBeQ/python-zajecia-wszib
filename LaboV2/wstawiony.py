@@ -1,5 +1,5 @@
 '''TDy@2019 sortowanie przez wstawianie insSort
-5k danych ok.2 sec.'''
+5k danych ok.2 sec.  Jakub Łysiak id : 05 '''
 
 import time
 from random import randint

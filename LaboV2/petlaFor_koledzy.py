@@ -1,6 +1,6 @@
 '''TDy@2022 Przykłady pętli for..in..
 Zadanie: wypisać kolejne imiona z listy koledzy
-oraz ich indeksy - numery miejsca na liście'''
+oraz ich indeksy - numery miejsca na liście  Jakub Łysiak id : 05 '''
 
 koledzy=['Czarek','Kaziu','Grześ','Basia']
 
