@@ -1,0 +1,16 @@
+Program sortowania przez wybieranie.
+
+1. Tworzymy listê przypadkowych liczb: 
+lista.append(random.randint(1,1000)), robimy kopiê: lista0=lista+[]
+2. wyznaczamy minimum listy
+  x = min(lista)
+  y = lista.index(x)
+3. piszemy g³ówny program, wywo³uj¹cy w pêtli while wyznaczanie minimum
+4. dopisujemy element x do nowej listaUp metod¹ append
+5. usuwamy ten element z listy: del lista[y]
+6. i tak w kó³ko, a¿ lista bêdzie pusta
+7. w odpowiednich miejscach wstawiamy liczniki pêtli i czasu
+8. na koniec drukujemy wartoœci liczników
+9. ewentualnie wykonujemy sprawdzenie  listaUp==lista0.sort() i drukujemy komunikat: listy zgodne
+
+zmienne:  lista (wygenerowana, w trakcie skraca siê do []), lista0 (kopia do sprawdzenia na koniec), listaUp (lista po uporz¹dkowaniu)
