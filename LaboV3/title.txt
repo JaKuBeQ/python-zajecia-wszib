@@ -1,0 +1,5 @@
+'''
+imie naziwsko: jakub łysiak
+ID: 05
+temat zadania -
+'''
