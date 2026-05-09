@@ -1,7 +1,7 @@
 '''
 imie nazwisko: jakub łysiak
 ID: 05
-temat zadania - couting sort liczb calkowitych
+temat zadania - counting sort liczb calkowitych
 '''
 
 from random import randint
