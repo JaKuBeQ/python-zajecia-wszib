@@ -23,3 +23,7 @@ def srt(A):
 for ir in D:
     hasH = int(ir*B)
     Buc[hasH].append(ir)
+
+    K = []
+    for ir in Buc:
+
