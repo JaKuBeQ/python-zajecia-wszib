@@ -1,5 +1,5 @@
 '''
-imie naziwsko: jakub łysiak
+imie nazwisko: jakub łysiak
 ID: 05
 temat zadania - program, sortujący zadaną listę metodą wybierania 'w miejscu'
 '''
