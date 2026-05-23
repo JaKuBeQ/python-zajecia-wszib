@@ -1,9 +1,21 @@
-'''TDy@2022 Kodowanie algorytmem Huffmana
-w słowniku {dict} z użyciem kolejki priorytetowej
 '''
+imie nazwisko: jakub łysiak
+ID: 05
+temat zadania - kodowanie huffmana
+'''
+from statistics import kde_random
+
+tekst = 'Jeszcze jeden mazur dzisiaj, choć poranek świta.'
+print('Tekst do kodowania: ', tekst)
 
 global A
 B = {'d':1,'u':8,'m':2,'a':4,'n':2,'k':1,'o':2}
+B = {}
+for lt in tekst:
+    if lt in B:
+        B[lt] += 1
+    else:
+        B[lt] = 1
 
 A = {}; Qu = []
 
@@ -45,3 +57,35 @@ HGraphVal(root)
 
 print('Kody Huffmana alfabetu: \nlitera częstość kod Huffmana')
 for i in B: print('%3s %7s %11s' %(i, B[i], A[i][0]))
+
+# pisanie koderu
+
+kdr = {}
+for lt in B:
+    kdr[lt] = A[lt][0]
+
+KOD = ""
+for lt in tekst:
+    KOD += kdr[lt]
+print(KOD)
+
+rdk = {}
+for lt in kdr:
+    rdk[kdr[lt]] = lt
+
+DECODED = ""
+buf = ""
+for bit in KOD:
+    buf += bit
+    if buf in rdk:
+        DECODED += rdk[buf]
+        buf = ""
+
+print(DECODED)
+
+
+
+
+
+
+
