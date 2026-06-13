@@ -16,5 +16,5 @@ def convert2(n):
 
 
 
-print("1024 w systemie dwojkowym to ", convert(1024))
+print("1024 w systemie dwojkowym  to ", convert(1024))
 print("729 w systemie osemkowym to ", convert2(729))
