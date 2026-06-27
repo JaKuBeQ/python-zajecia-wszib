@@ -42,7 +42,7 @@ def minNode():
     Queue.remove(nmin)
     return nmin
 
-Value(0)
+Value(2)
 while len(Queue)>0:
     Value(minNode())
 
