@@ -1,20 +1,22 @@
-''' TDy@2022  Dijkstra: przyłącz najbliższego
-(zachłanny) i aktualizuj jego sąsiadów. Directed Valued Graph
-DGr[i]=[[ojciec,value],[1syn,odl],[2syn,...] '''
+'''
+imie nazwisko: jakub łysiak
+ID: 05
+temat zadania - podmiana pliku DijkstraVsBellFord.py
+'''
 
 global Inf, DGr 
 global Solved, Queue
 Inf = 999
 
-DGr = [[[-1,0],[1,3],[4,3]],[[None,Inf],[2,1],[0,3]],
-       [[None,Inf],[3,3],[5,1]],[[None,Inf],[1,3]],
+DGr = [[[None,Inf],[1,3],[4,3]],[[None,Inf],[2,1],[0,3]],
+       [[-1,0],[3,3],[5,1]],[[None,Inf],[1,3]],
        [[None,Inf],[5,3]],[[None,Inf],[0,6],[3,1]]]
 
 i = 0; print('Id  Węzły grafu połączeń')
 for n in DGr:
     print(i, n); i += 1
 
-Solved = [-1,0]; Queue = []
+Solved = [-1,2]; Queue = []
 
 def vaL(n): return DGr[n][0][1]
 

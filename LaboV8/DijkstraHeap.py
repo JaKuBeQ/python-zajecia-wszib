@@ -1,8 +1,8 @@
-'''TDy@2022 Dijkstra: przyłącz najbliższego
-(zachłanny) i aktualizuj wartości jego sąsiadów.
-Directed Valued Graph DVGr[i] =
-= [[ojciec,value],[1syn,odl],[2syn,odl],...] 
 '''
+imie nazwisko: jakub łysiak
+ID: 05
+temat zadania - podmianka pliku DijkstraVsBellFord.py
+''''
 global Inf, DVGr 
 global Solved, Qu, n
 InF = 999
